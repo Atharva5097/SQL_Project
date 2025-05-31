@@ -1,5 +1,5 @@
 # Supply Chain Analytics SQL Case Study
-Optimizing Warehouse Operations & Procurement Efficiency through Advanced SQL Analytics
+
 # 📘 Project Overview
 This project analyzes a simulated supply chain dataset containing customer orders, product details, suppliers, and regional sales performance. Using SQL, I performed in-depth analysis using joins, subqueries, window functions, and aggregations to generate actionable insights such as top-selling products, supplier contribution, regional performance, and customer behavior.
 
