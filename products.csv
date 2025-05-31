@@ -1,0 +1,16 @@
+product_id,product_name,category,supplier_id
+P001,Product 1,Office Supplies,S004
+P002,Product 2,Office Supplies,S005
+P003,Product 3,Electronics,S003
+P004,Product 4,Accessories,S005
+P005,Product 5,Electronics,S005
+P006,Product 6,Electronics,S002
+P007,Product 7,Accessories,S003
+P008,Product 8,Electronics,S003
+P009,Product 9,Electronics,S003
+P010,Product 10,Accessories,S005
+P011,Product 11,Accessories,S004
+P012,Product 12,Electronics,S003
+P013,Product 13,Accessories,S005
+P014,Product 14,Office Supplies,S002
+P015,Product 15,Electronics,S004
