@@ -23,7 +23,7 @@ SQL Techniques:
 ```sql
 SELECT SUM(oi.quantity * oi.unit_price) AS total_revenue
 FROM order_items
-JOIN order_items oi ON o.order_id = oi.order_id
+JOIN orders o ON o.order_id = oi.order_id
 WHERE order_status = 'Delivered';
 ```
 # 1. What are the top 5 selling products by quantity?
