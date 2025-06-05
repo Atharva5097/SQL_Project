@@ -21,8 +21,9 @@ SQL Techniques:
 # 1. What is the total revenue from delivered orders?
 #### 🧠 View SQL Code
 ```sql
-SELECT SUM(total_amount) AS revenue
-FROM orders
+SELECT SUM(oi.quantity * oi.unit_price) AS total_revenue
+FROM order_items
+JOIN order_items oi ON o.order_id = oi.order_id
 WHERE order_status = 'Delivered';
 ```
 # 1. What are the top 5 selling products by quantity?
