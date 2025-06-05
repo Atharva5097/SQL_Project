@@ -24,7 +24,7 @@ SQL Techniques:
 SELECT SUM(oi.quantity * oi.unit_price) AS total_revenue
 FROM order_items
 JOIN orders o ON o.order_id = oi.order_id
-WHERE order_status = 'Delivered';
+WHERE o.order_status = 'Delivered';
 ```
 # 1. What are the top 5 selling products by quantity?
 #### 🧠 View SQL Code
