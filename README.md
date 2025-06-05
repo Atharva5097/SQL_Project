@@ -22,7 +22,7 @@ SQL Techniques:
 #### 🧠 View SQL Code
 ```sql
 SELECT SUM(oi.quantity * oi.unit_price) AS total_revenue
-FROM order_items
+FROM order_items oi
 JOIN orders o ON o.order_id = oi.order_id
 WHERE o.order_status = 'Delivered';
 ```
